@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BetNex Lab — Independent Tests. No Sponsors. Just Results.</title>
+<link rel="icon" href="/favicon.ico">
+<meta name="description" content="BetNex Lab is an independent test lab. We test viral AI tools for 7 days and give you one verdict: GOOD BET, BAD BET, or LONG BET.">
+<style>
+  :root{--bg:#0B0F19;--card:#121A2B;--green:#22C55E;--red:#EF4444;--yellow:#EAB308;--text:#E5E7EB;--muted:#9CA3AF}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,Segoe UI,Roboto,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+  .wrap{max-width:720px;width:100%;}
+  .logo{width:64px;height:64px;background:#000;border-radius:50%;display:grid;place-items:center;font-weight:800;letter-spacing:1px;font-size:24px;color:#fff;margin:0 auto 24px;border:1px solid #1F2A44}
+  .card{background:var(--card);border:1px solid #1E293B;border-radius:24px;padding:36px 32px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  h1{margin:0 0 8px;text-align:center;font-size:32px;letter-spacing:-.02em}
+  .tag{text-align:center;color:var(--muted);margin-bottom:28px;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+  .badges{display:flex;gap:12px;justify-content:center;margin:24px 0;flex-wrap:wrap}
+  .badge{padding:8px 14px;border-radius:999px;font-weight:700;font-size:13px;letter-spacing:.04em;border:1px solid}
+  .b-green{background:rgba(34,197,94,.12);color:var(--green);border-color:rgba(34,197,94,.3)}
+  .b-red{background:rgba(239,68,68,.12);color:var(--red);border-color:rgba(239,68,68,.3)}
+  .b-yellow{background:rgba(234,179,8,.12);color:var(--yellow);border-color:rgba(234,179,8,.3)}
+  p{color:var(--muted);text-align:center}
+  .links{display:flex;gap:12px;justify-content:center;margin-top:28px;flex-wrap:wrap}
+  .btn{padding:12px 20px;border-radius:12px;text-decoration:none;font-weight:600;font-size:14px;border:1px solid #2A3A5C;background:#17223A;color:#E5E7EB}
+  .btn.primary{background:#fff;color:#000;border-color:#fff}
+  .foot{margin-top:24px;text-align:center;color:#6B7280;font-size:12px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <div class="logo">BN</div>
+    <h1>BetNex Lab</h1>
+    <div class="tag">Independent Tests • No Sponsors • Just Results</div>
+    <div class="badges">
+      <span class="badge b-green">✅ GOOD BET</span>
+      <span class="badge b-red">❌ BAD BET</span>
+      <span class="badge b-yellow">⏳ LONG BET</span>
+    </div>
+    <p>We test what's next, so you don't have to. Every viral AI tool gets 7 days of real testing with real money and real time tracking. Then one verdict.</p>
+    <div class="links">
+      <a class="btn primary" href="https://www.youtube.com/@BetNexLab">YouTube Channel</a>
+      <a class="btn" href="mailto:hello@betnex.com">hello@betnex.com</a>
+    </div>
+    <p style="margin-top:20px;font-size:13px">Official domains: <strong style="color:#E5E7EB">betnex.com</strong> + <strong style="color:#E5E7EB">betnexlab.com</strong></p>
+    <div class="foot">Not a betting site. Not a casino. BetNex is not affiliated with betnex.pro, betnex.bet, betnex.live or any gambling/crypto platform.<br>© 2026 BetNex Lab</div>
+  </div>
+</div>
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
+</html>
